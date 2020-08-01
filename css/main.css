@@ -108,11 +108,26 @@ body {
   height: 100%;
 }
 
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.intro {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
@@ -128,12 +143,11 @@ body {
   align-items: center;
 }
 
-.div-1 {
-    border-right: 3px solid #fff;
-}
-
-.div-2 {
-    border-right: 3px solid #fff;
+footer {
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
